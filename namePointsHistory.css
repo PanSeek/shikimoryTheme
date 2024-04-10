@@ -1,0 +1,17 @@
+.history-page a:before {
+    display: inline-block;
+    vertical-align: top;
+    width: 72px;
+}
+.history-page a[href ^= "/a"]:before {
+    content: '[Аниме] ';
+    color: #25a29a;
+}
+.history-page a[href ^= "/m"]:before {
+    content: '[Манга] ';
+    color: #ee70e6;
+}
+.history-page a[href ^= "/r"]:before {
+    content: '[Ранобэ] ';
+    color: #69f27e;
+}

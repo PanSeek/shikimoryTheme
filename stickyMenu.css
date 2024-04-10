@@ -1,0 +1,8 @@
+@media screen and (min-width: 1025px) {
+	.l-top_menu-v2 {
+  		position: sticky; top: 0;
+  	}
+	.l-top_menu-v2 .active .submenu {
+      max-height: calc(100vh - var(--top-menu-height)); overflow-y: auto;
+  	}
+}
