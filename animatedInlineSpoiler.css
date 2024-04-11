@@ -1,0 +1,13 @@
+.b-spoiler_inline {
+    display: inline;
+    background-repeat: no-repeat;
+    color: transparent;
+    background-position: center;
+    background-size: 100% 100%;
+    background-image: linear-gradient(grey, grey);
+    transition: .5s ease-in-out;
+}
+.b-spoiler_inline.is-opened {
+    color: black;
+    background-size: 0% 100%;
+}
